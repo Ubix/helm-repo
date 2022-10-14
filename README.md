@@ -32,5 +32,21 @@ For example, to package the hadoop chart
 helm package hadoop --version 1.1.4"
 ```
 
+## How to use the repo
+Add this repository to your helm repositories by running the following command
+
+```
+helm repo add Ubix \
+  --username <your-github-username> \
+  "https://raw.githubusercontent.com/Ubix/helm-repo/main/?token=<your-github-token>"
+```
+
+Note you can get your token by navigating the index.yaml file in the Raw option:
+
+![token1](Readme/index_yaml.png)
+
+the token will be displayed in the http address url
+
+![token1](Readme/token.png)
 
 
