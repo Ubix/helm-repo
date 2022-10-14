@@ -50,3 +50,15 @@ the token will be displayed in the http address url
 ![token1](Readme/token.png)
 
 
+## Try the chart
+Make sure that the repo is working correctly
+`helm repo update`
+```
+helm search repo Ubix --devel
+```
+
+And the chart should be displayed correctly
+```
+NAME       	CHART VERSION	APP VERSION	DESCRIPTION
+ubix/hadoop	1.1.4        	2.9.0      	DEPRECATED - The Apache Hadoop software library...
+```
