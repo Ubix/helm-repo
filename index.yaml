@@ -1,9 +1,30 @@
 apiVersion: v1
 entries:
+  application:
+  - apiVersion: v1
+    created: "2022-10-18T13:25:47.196007388Z"
+    description: Generic helm chart for all kind of applications
+    digest: ecda6e2341da4681fbf5dfe36fa9e14991947ae1977c09854012dbdede84ed21
+    home: https://github.com/stakater-charts/application
+    icon: https://github.com/stakater/ForecastleIcons/blob/master/stakater.png
+    keywords:
+    - java
+    - node
+    - dotnet
+    - kubernetes
+    - stakater
+    - application
+    maintainers:
+    - email: hello@stakater.com
+      name: Stakater
+    name: application
+    urls:
+    - application-1.2.9.tgz
+    version: 1.2.9
   hadoop:
   - apiVersion: v1
     appVersion: 2.9.0
-    created: "2022-10-14T19:43:20.035698239Z"
+    created: "2022-10-18T13:25:47.197415529Z"
     deprecated: true
     description: DEPRECATED - The Apache Hadoop software library is a framework that
       allows for the distributed processing of large data sets across clusters of
@@ -17,4 +38,4 @@ entries:
     urls:
     - hadoop-1.1.4.tgz
     version: 1.1.4
-generated: "2022-10-14T19:43:20.033497297Z"
+generated: "2022-10-18T13:25:47.191389427Z"
