@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v1
-    created: "2022-10-22T13:11:55.249829174Z"
+    created: "2022-10-22T13:14:27.777893134Z"
     description: Generic helm chart for all kind of applications
     digest: ecda6e2341da4681fbf5dfe36fa9e14991947ae1977c09854012dbdede84ed21
     home: https://github.com/stakater-charts/application
@@ -24,7 +24,7 @@ entries:
   cloudspace:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-22T13:11:55.25053844Z"
+    created: "2022-10-22T13:14:27.778537351Z"
     description: A Helm chart for Kubernetes
     digest: 6ef75fe2defac526f1f8ae19889146e9ab632ba084882065180006423a314fed
     name: cloudspace
@@ -35,7 +35,7 @@ entries:
   hadoop:
   - apiVersion: v1
     appVersion: 2.9.0
-    created: "2022-10-22T13:11:55.251782556Z"
+    created: "2022-10-22T13:14:27.779661879Z"
     deprecated: true
     description: DEPRECATED - The Apache Hadoop software library is a framework that
       allows for the distributed processing of large data sets across clusters of
@@ -49,4 +49,15 @@ entries:
     urls:
     - hadoop-1.1.4.tgz
     version: 1.1.4
-generated: "2022-10-22T13:11:55.245352858Z"
+  master_account:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-22T13:14:27.779866385Z"
+    description: Provisions accounts in the Ubix AWS organization
+    digest: 94bee760ad6c8cd2c0ebd05f5e11fc58a2fb71b7ccfae764f89f86ed390ae687
+    name: master_account
+    type: application
+    urls:
+    - master_account-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-10-22T13:14:27.774111538Z"
