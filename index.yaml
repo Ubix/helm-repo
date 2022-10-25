@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v1
-    created: "2022-10-22T13:14:27.777893134Z"
+    created: "2022-10-25T16:20:45.763146387Z"
     description: Generic helm chart for all kind of applications
     digest: ecda6e2341da4681fbf5dfe36fa9e14991947ae1977c09854012dbdede84ed21
     home: https://github.com/stakater-charts/application
@@ -24,7 +24,7 @@ entries:
   cloudspace:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-22T13:14:27.778537351Z"
+    created: "2022-10-25T16:20:45.763783992Z"
     description: A Helm chart for Kubernetes
     digest: 6ef75fe2defac526f1f8ae19889146e9ab632ba084882065180006423a314fed
     name: cloudspace
@@ -35,7 +35,7 @@ entries:
   hadoop:
   - apiVersion: v1
     appVersion: 2.9.0
-    created: "2022-10-22T13:14:27.779661879Z"
+    created: "2022-10-25T16:20:45.765399105Z"
     deprecated: true
     description: DEPRECATED - The Apache Hadoop software library is a framework that
       allows for the distributed processing of large data sets across clusters of
@@ -49,10 +49,36 @@ entries:
     urls:
     - hadoop-1.1.4.tgz
     version: 1.1.4
+  hive-metastore:
+  - apiVersion: v1
+    appVersion: 2.3.6
+    created: "2022-10-25T16:20:45.770546944Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.10.13
+    description: The Apache Hive ™ data warehouse software facilitates reading, writing,
+      and managing large datasets residing in distributed storage using SQL. Structure
+      can be projected onto data already in storage. A command line tool and JDBC
+      driver are provided to connect users to Hive.
+    digest: 1521185e90f8436946169ffbccf851670eb6cc0bf55c3ec623ac877e72862424
+    home: https://hive.apache.org/
+    icon: https://hive.apache.org/images/hive_logo_medium.jpg
+    maintainers:
+    - email: cgiraldo@gradiant.org
+      name: cgiraldo
+    name: hive-metastore
+    sources:
+    - https://github.com/apache/hive
+    - https://github.com/gradiant/charts
+    - https://github.com/big-data-europe/docker-hive
+    urls:
+    - hive-metastore-0.1.3.tgz
+    version: 0.1.3
   master_account:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-22T13:14:27.779866385Z"
+    created: "2022-10-25T16:20:45.770793746Z"
     description: Provisions accounts in the Ubix AWS organization
     digest: 94bee760ad6c8cd2c0ebd05f5e11fc58a2fb71b7ccfae764f89f86ed390ae687
     name: master_account
@@ -60,4 +86,4 @@ entries:
     urls:
     - master_account-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-22T13:14:27.774111538Z"
+generated: "2022-10-25T16:20:45.759797661Z"
