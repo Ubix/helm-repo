@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v1
-    created: "2022-10-25T16:20:45.763146387Z"
+    created: "2022-10-26T11:49:41.459437692Z"
     description: Generic helm chart for all kind of applications
     digest: ecda6e2341da4681fbf5dfe36fa9e14991947ae1977c09854012dbdede84ed21
     home: https://github.com/stakater-charts/application
@@ -24,7 +24,7 @@ entries:
   cloudspace:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-25T16:20:45.763783992Z"
+    created: "2022-10-26T11:49:41.460080889Z"
     description: A Helm chart for Kubernetes
     digest: 6ef75fe2defac526f1f8ae19889146e9ab632ba084882065180006423a314fed
     name: cloudspace
@@ -32,10 +32,20 @@ entries:
     urls:
     - customer_account-0.0.1.tgz
     version: 0.0.1
+  exec-service-node:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-10-26T11:49:41.460499787Z"
+    description: A Helm chart for Kubernetes
+    digest: 735ae445730c2a57d4bf3ff82a10ffc7edcf47ea26f9da60b93faa6caeaffe83
+    name: exec-service-node
+    urls:
+    - exec-service-node-0.0.1.tgz
+    version: 0.0.1
   hadoop:
   - apiVersion: v1
     appVersion: 2.9.0
-    created: "2022-10-25T16:20:45.765399105Z"
+    created: "2022-10-26T11:49:41.461664182Z"
     deprecated: true
     description: DEPRECATED - The Apache Hadoop software library is a framework that
       allows for the distributed processing of large data sets across clusters of
@@ -52,7 +62,7 @@ entries:
   hive-metastore:
   - apiVersion: v1
     appVersion: 2.3.6
-    created: "2022-10-25T16:20:45.770546944Z"
+    created: "2022-10-26T11:49:41.467692254Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -78,7 +88,7 @@ entries:
   master_account:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-25T16:20:45.770793746Z"
+    created: "2022-10-26T11:49:41.467901453Z"
     description: Provisions accounts in the Ubix AWS organization
     digest: 94bee760ad6c8cd2c0ebd05f5e11fc58a2fb71b7ccfae764f89f86ed390ae687
     name: master_account
@@ -86,4 +96,4 @@ entries:
     urls:
     - master_account-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-25T16:20:45.759797661Z"
+generated: "2022-10-26T11:49:41.456919803Z"
