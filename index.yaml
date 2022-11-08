@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v1
-    created: "2022-10-26T11:53:52.647598959Z"
+    created: "2022-11-08T13:49:37.776009059Z"
     description: Generic helm chart for all kind of applications
     digest: ecda6e2341da4681fbf5dfe36fa9e14991947ae1977c09854012dbdede84ed21
     home: https://github.com/stakater-charts/application
@@ -24,7 +24,7 @@ entries:
   cloudspace:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-26T11:53:52.64818647Z"
+    created: "2022-11-08T13:49:37.776836069Z"
     description: A Helm chart for Kubernetes
     digest: 6ef75fe2defac526f1f8ae19889146e9ab632ba084882065180006423a314fed
     name: cloudspace
@@ -35,7 +35,7 @@ entries:
   exec-service-node:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-10-26T11:53:52.648584978Z"
+    created: "2022-11-08T13:49:37.777353475Z"
     description: A Helm chart for Kubernetes
     digest: 735ae445730c2a57d4bf3ff82a10ffc7edcf47ea26f9da60b93faa6caeaffe83
     name: exec-service-node
@@ -45,7 +45,7 @@ entries:
   exec-service-python:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-10-26T11:53:52.649012087Z"
+    created: "2022-11-08T13:49:37.778328187Z"
     description: A Helm chart for Kubernetes
     digest: e49e69f8ecbd42525961c21e7b0ac15292d0c5b6cc7715b4b614c5e4006d458a
     name: exec-service-python
@@ -55,7 +55,7 @@ entries:
   hadoop:
   - apiVersion: v1
     appVersion: 2.9.0
-    created: "2022-10-26T11:53:52.65019371Z"
+    created: "2022-11-08T13:49:37.780921419Z"
     deprecated: true
     description: DEPRECATED - The Apache Hadoop software library is a framework that
       allows for the distributed processing of large data sets across clusters of
@@ -72,7 +72,7 @@ entries:
   hive-metastore:
   - apiVersion: v1
     appVersion: 2.3.6
-    created: "2022-10-26T11:53:52.658402573Z"
+    created: "2022-11-08T13:49:37.78917512Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -98,7 +98,7 @@ entries:
   master_account:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-26T11:53:52.658625478Z"
+    created: "2022-11-08T13:49:37.789451123Z"
     description: Provisions accounts in the Ubix AWS organization
     digest: 94bee760ad6c8cd2c0ebd05f5e11fc58a2fb71b7ccfae764f89f86ed390ae687
     name: master_account
@@ -106,4 +106,15 @@ entries:
     urls:
     - master_account-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-26T11:53:52.64416229Z"
+  mlflow:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-11-08T13:49:37.790057231Z"
+    description: A Helm chart for Kubernetes
+    digest: adc2f0a76939a2e10e2266a6a3754d6d370551fa2c91fa62d7f270b4276f5a77
+    name: mlflow
+    type: application
+    urls:
+    - mlflow-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-11-08T13:49:37.772758619Z"
